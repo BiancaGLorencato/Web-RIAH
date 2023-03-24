@@ -1,0 +1,47 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+<<<<<<< HEAD
+    "autoprefixer": "^9.8.8",
+    "dotenv": "^16.0.2",
+    "postcss": "^7.0.39",
+    "postcss-load-config": "^4.0.1",
+    "process": "^0.11.10",
+=======
+    "@rollup/plugin-replace": "^4.0.0",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.2",
+    "postcss-load-config": "^3.0.0",
+>>>>>>> 17216a6e743d4af502b5dc143912bdc7b9cac2d8
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^4.10.7",
+    "svelte-sidebar-menu": "^0.9.11",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+    "@popperjs/core": "2.9.1",
+=======
+>>>>>>> 17216a6e743d4af502b5dc143912bdc7b9cac2d8
+    "axios": "^0.27.2",
+    "sirv-cli": "^1.0.0",
+    "svelte-burger-menu": "^1.0.5",
+    "svelte-navigator": "^3.2.2",
+    "svelte-routing": "^1.5.0",
+    "svelte-spa-router": "^3.2.0"
+  }
+}
